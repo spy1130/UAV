@@ -74,7 +74,9 @@ git add .
 
 （这个也不清楚，但是入门应该是够了）
 
-未完待续.....
+# 凌霄无人机入门
+
+[无人机入门讲解(1)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Xo4y1H75G/?spm_id_from=333.999.0.0&vd_source=60e0ace2caafb5ad644084ce163687fc)
 
 ------
 
@@ -96,3 +98,4 @@ CS高级自学推荐：[CS自学指南 (csdiy.wiki)](https://csdiy.wiki/)
 
 2023年华科大佬的开源代码：[DBLYBB/UAV_2023 (github.com)](https://github.com/DBLYBB/UAV_2023/tree/master)
 
+2022年华科大佬的开源代码：[ElluIFX/ANO_LX_FC (github.com)](https://github.com/ElluIFX/ANO_LX_FC)
