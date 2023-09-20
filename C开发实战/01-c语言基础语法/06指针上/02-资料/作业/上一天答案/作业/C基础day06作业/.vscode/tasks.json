@@ -1,0 +1,1 @@
+{"version": "0.1.0", "command": "gcc", "args": ["-g", "${file}","str_dispose.c", "-o", "${file}.exe"], "problemMatcher": {"owner": "c", "fileLocation": ["relative", "${workspaceRoot}"], "pattern": {"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$", "file": 1, "line": 2, "severity": 4, "column": 3, "message": 5}}}

@@ -1,0 +1,193 @@
+Added Component: Designator=C1(C1206)
+Added Component: Designator=C2(C1206)
+Added Component: Designator=C7(C1206)
+Added Component: Designator=C8(C1206)
+Added Component: Designator=C9(C1206)
+Added Component: Designator=C10(C1206)
+Added Component: Designator=C11(C1206)
+Added Component: Designator=C101(电解电容)
+Added Component: Designator=C102(C1206)
+Added Component: Designator=C103(电解电容)
+Added Component: Designator=C104(C1206)
+Added Component: Designator=D101(3.5X2.8X1.9)
+Added Component: Designator=D102(SMB)
+Added Component: Designator=D103(SMB)
+Added Component: Designator=R3(C1206)
+Added Component: Designator=R5(C1206)
+Added Component: Designator=R101(AXIAL-0.4)
+Added Component: Designator=RESET(SW_4t)
+Added Component: Designator=ST_LIINK(HDR1X4)
+Added Component: Designator=stm32f103rct6_64pin(stm32f103rct6_64pin)
+Added Component: Designator=SW101(三脚开关)
+Added Component: Designator=U101(AMS1117_3.3V)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C101-2
+Added Pin To Net: NetName=GND Pin=C102-1
+Added Pin To Net: NetName=GND Pin=C103-2
+Added Pin To Net: NetName=GND Pin=C104-1
+Added Pin To Net: NetName=GND Pin=D102-1
+Added Pin To Net: NetName=GND Pin=D103-1
+Added Pin To Net: NetName=GND Pin=R101-1
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=GND Pin=ST_LIINK-2
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-12
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-18
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-28
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-31
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-47
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-60
+Added Pin To Net: NetName=GND Pin=stm32f103rct6_64pin-63
+Added Pin To Net: NetName=GND Pin=U101-1
+Added Net: Name=GND
+Added Pin To Net: NetName=JTCK Pin=ST_LIINK-4
+Added Pin To Net: NetName=JTCK Pin=stm32f103rct6_64pin-49
+Added Net: Name=JTCK
+Added Pin To Net: NetName=JTDI Pin=stm32f103rct6_64pin-50
+Added Net: Name=JTDI
+Added Pin To Net: NetName=JTDO Pin=stm32f103rct6_64pin-55
+Added Net: Name=JTDO
+Added Pin To Net: NetName=JTMS Pin=ST_LIINK-3
+Added Pin To Net: NetName=JTMS Pin=stm32f103rct6_64pin-46
+Added Net: Name=JTMS
+Added Pin To Net: NetName=JTRST Pin=stm32f103rct6_64pin-56
+Added Net: Name=JTRST
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=C8-2
+Added Pin To Net: NetName=NetC7_1 Pin=R5-2
+Added Pin To Net: NetName=NetC7_1 Pin=stm32f103rct6_64pin-13
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetD101_2 Pin=D101-2
+Added Pin To Net: NetName=NetD101_2 Pin=R101-2
+Added Net: Name=NetD101_2
+Added Pin To Net: NetName=OSC32 Pin=stm32f103rct6_64pin-3
+Added Net: Name=OSC32
+Added Pin To Net: NetName=OSC33 Pin=stm32f103rct6_64pin-4
+Added Net: Name=OSC33
+Added Pin To Net: NetName=OSC IN Pin=stm32f103rct6_64pin-5
+Added Net: Name=OSC IN
+Added Pin To Net: NetName=OSC OUT Pin=stm32f103rct6_64pin-6
+Added Net: Name=OSC OUT
+Added Pin To Net: NetName=PA0 Pin=stm32f103rct6_64pin-14
+Added Net: Name=PA0
+Added Pin To Net: NetName=PA1 Pin=stm32f103rct6_64pin-15
+Added Net: Name=PA1
+Added Pin To Net: NetName=PA2 Pin=stm32f103rct6_64pin-16
+Added Net: Name=PA2
+Added Pin To Net: NetName=PA3 Pin=stm32f103rct6_64pin-17
+Added Net: Name=PA3
+Added Pin To Net: NetName=PA4 Pin=stm32f103rct6_64pin-20
+Added Net: Name=PA4
+Added Pin To Net: NetName=PA5 Pin=stm32f103rct6_64pin-21
+Added Net: Name=PA5
+Added Pin To Net: NetName=PA6 Pin=stm32f103rct6_64pin-22
+Added Net: Name=PA6
+Added Pin To Net: NetName=PA7 Pin=stm32f103rct6_64pin-23
+Added Net: Name=PA7
+Added Pin To Net: NetName=PA8 Pin=stm32f103rct6_64pin-41
+Added Net: Name=PA8
+Added Pin To Net: NetName=PA9 Pin=stm32f103rct6_64pin-42
+Added Net: Name=PA9
+Added Pin To Net: NetName=PA10 Pin=stm32f103rct6_64pin-43
+Added Net: Name=PA10
+Added Pin To Net: NetName=PA11 Pin=stm32f103rct6_64pin-44
+Added Net: Name=PA11
+Added Pin To Net: NetName=PA12 Pin=stm32f103rct6_64pin-45
+Added Net: Name=PA12
+Added Pin To Net: NetName=PB0 Pin=stm32f103rct6_64pin-26
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB1 Pin=stm32f103rct6_64pin-27
+Added Net: Name=PB1
+Added Pin To Net: NetName=PB5 Pin=stm32f103rct6_64pin-57
+Added Net: Name=PB5
+Added Pin To Net: NetName=PB6 Pin=stm32f103rct6_64pin-58
+Added Net: Name=PB6
+Added Pin To Net: NetName=PB7 Pin=stm32f103rct6_64pin-59
+Added Net: Name=PB7
+Added Pin To Net: NetName=PB8 Pin=stm32f103rct6_64pin-61
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=stm32f103rct6_64pin-62
+Added Net: Name=PB9
+Added Pin To Net: NetName=PB10 Pin=stm32f103rct6_64pin-29
+Added Net: Name=PB10
+Added Pin To Net: NetName=PB11 Pin=stm32f103rct6_64pin-30
+Added Net: Name=PB11
+Added Pin To Net: NetName=PB12 Pin=stm32f103rct6_64pin-33
+Added Net: Name=PB12
+Added Pin To Net: NetName=PB13 Pin=stm32f103rct6_64pin-34
+Added Net: Name=PB13
+Added Pin To Net: NetName=PB14 Pin=stm32f103rct6_64pin-35
+Added Net: Name=PB14
+Added Pin To Net: NetName=PB15 Pin=stm32f103rct6_64pin-36
+Added Net: Name=PB15
+Added Pin To Net: NetName=PC0 Pin=stm32f103rct6_64pin-8
+Added Net: Name=PC0
+Added Pin To Net: NetName=PC1 Pin=stm32f103rct6_64pin-9
+Added Net: Name=PC1
+Added Pin To Net: NetName=PC2 Pin=stm32f103rct6_64pin-10
+Added Net: Name=PC2
+Added Pin To Net: NetName=PC3 Pin=stm32f103rct6_64pin-11
+Added Net: Name=PC3
+Added Pin To Net: NetName=PC4 Pin=stm32f103rct6_64pin-24
+Added Net: Name=PC4
+Added Pin To Net: NetName=PC5 Pin=stm32f103rct6_64pin-25
+Added Net: Name=PC5
+Added Pin To Net: NetName=PC6 Pin=stm32f103rct6_64pin-37
+Added Net: Name=PC6
+Added Pin To Net: NetName=PC7 Pin=stm32f103rct6_64pin-38
+Added Net: Name=PC7
+Added Pin To Net: NetName=PC8 Pin=stm32f103rct6_64pin-39
+Added Net: Name=PC8
+Added Pin To Net: NetName=PC9 Pin=stm32f103rct6_64pin-40
+Added Net: Name=PC9
+Added Pin To Net: NetName=PC10 Pin=stm32f103rct6_64pin-51
+Added Net: Name=PC10
+Added Pin To Net: NetName=PC11 Pin=stm32f103rct6_64pin-52
+Added Net: Name=PC11
+Added Pin To Net: NetName=PC12 Pin=stm32f103rct6_64pin-53
+Added Net: Name=PC12
+Added Pin To Net: NetName=PC13 Pin=stm32f103rct6_64pin-2
+Added Net: Name=PC13
+Added Pin To Net: NetName=PD2 Pin=stm32f103rct6_64pin-54
+Added Net: Name=PD2
+Added Pin To Net: NetName=RESET Pin=C1-2
+Added Pin To Net: NetName=RESET Pin=R3-1
+Added Pin To Net: NetName=RESET Pin=RESET-2
+Added Pin To Net: NetName=RESET Pin=RESET-2
+Added Pin To Net: NetName=RESET Pin=stm32f103rct6_64pin-7
+Added Net: Name=RESET
+Added Pin To Net: NetName=VBAT Pin=stm32f103rct6_64pin-1
+Added Net: Name=VBAT
+Added Pin To Net: NetName=VCC3.3 Pin=C2-2
+Added Pin To Net: NetName=VCC3.3 Pin=C9-2
+Added Pin To Net: NetName=VCC3.3 Pin=C10-2
+Added Pin To Net: NetName=VCC3.3 Pin=C11-2
+Added Pin To Net: NetName=VCC3.3 Pin=C103-1
+Added Pin To Net: NetName=VCC3.3 Pin=C104-2
+Added Pin To Net: NetName=VCC3.3 Pin=D101-1
+Added Pin To Net: NetName=VCC3.3 Pin=D103-2
+Added Pin To Net: NetName=VCC3.3 Pin=R3-2
+Added Pin To Net: NetName=VCC3.3 Pin=R5-1
+Added Pin To Net: NetName=VCC3.3 Pin=stm32f103rct6_64pin-19
+Added Pin To Net: NetName=VCC3.3 Pin=stm32f103rct6_64pin-32
+Added Pin To Net: NetName=VCC3.3 Pin=stm32f103rct6_64pin-48
+Added Pin To Net: NetName=VCC3.3 Pin=stm32f103rct6_64pin-64
+Added Pin To Net: NetName=VCC3.3 Pin=U101-2
+Added Net: Name=VCC3.3
+Added Pin To Net: NetName=VCC 5V Pin=C101-1
+Added Pin To Net: NetName=VCC 5V Pin=C102-2
+Added Pin To Net: NetName=VCC 5V Pin=D102-2
+Added Pin To Net: NetName=VCC 5V Pin=SW101-1
+Added Pin To Net: NetName=VCC 5V Pin=U101-3
+Added Net: Name=VCC 5V
+Added Pin To Net: NetName=VCC IN Pin=ST_LIINK-1
+Added Pin To Net: NetName=VCC IN Pin=SW101-3
+Added Net: Name=VCC IN
+Added Class: Name=STM32F103RCT6最小系统
+Added Room: Name=STM32F103RCT6最小系统

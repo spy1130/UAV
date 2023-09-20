@@ -1,0 +1,630 @@
+{
+  "schematics": {
+    "889964ccf9854df39982cfc3efb39a33": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "1b4c2ee9093a43489f2f640662ae5916"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "606b77c865cc46c0a5e19ba2e2841690": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "200a5b4ccffe4adaa426fe559e9fd445": {
+      "source": "9efc5969ac6c4c83b5123274296715d2|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "Netport-IN",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Netport-IN",
+      "version": "1635849558",
+      "type": 19
+    },
+    "366a319b477b47388882479f0de28f23": {
+      "source": "a81a018d5af54de280f576e248240a47|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排母\"]",
+      "title": "FFH25407-D12S1001K6K",
+      "version": "1679984102",
+      "type": 2
+    },
+    "4d4785e976d94eb985898d8b318b116f": {
+      "source": "7623823fcda94ba4b9eecc3636573f73|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "SH1.0A-4P 卧贴",
+      "version": "1673124306",
+      "type": 2
+    },
+    "6ec445cb58b34c19978ec2036b289f4e": {
+      "source": "e5f9123133ba424185ce0fb22c1116c0|user",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "TMB12A05",
+      "version": "1640683644",
+      "type": 2
+    },
+    "98b2a814eed9412b8ad611d4b1ae1935": {
+      "source": "7c1f6a902ca64df7b16902767663f74c|9d90172aebf944979384a9ecc7b84837",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "单排排针1X3P-2.54",
+      "version": "1677719007",
+      "type": 2
+    },
+    "a7a634f7fca7473cae01821dd25a0297": {
+      "source": "f2baecf085944dad81faf9a0fd6bfcea|538ffa5217fd44079d860029e764371f",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"\",\"\"]",
+      "title": "Sheet-Symbol_A4",
+      "version": "1664282381",
+      "type": 20
+    },
+    "a7c5cb5999f94c0f9e71d93674a3cc4f": {
+      "source": "388c860a99d04414b05856ddc875a663|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"光耦/LED/数码管/光电器件\",\"发光二极管\"]",
+      "title": "VLMTG1401-GS08",
+      "version": "1672750204",
+      "type": 2
+    },
+    "d80927dc56db407caa89f05883f705ca": {
+      "source": "58339bcef3a14aa0bb426c4c7972887e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"连接器\",\"排针\"]",
+      "title": "826925-6",
+      "version": "1673163007",
+      "type": 2
+    },
+    "ecc72be013e14314b010317a97e2cffc": {
+      "source": "af07fb8301014d6eb2619b7d989a47aa|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"电阻\",\"贴片电阻\"]",
+      "title": "ERA3VEB1001V",
+      "version": "1673101209",
+      "type": 2
+    },
+    "f35aca7e44dc4c7bbd8c4a62f4614f99": {
+      "source": "d2a7a656f37c48739af15e0b70acac74|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "S8050 (200-350)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"三极管/MOS管/晶体管\",\"三极管(BJT)\"]",
+      "title": "S8050_C2146",
+      "version": "1675131610",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "1e8c0d1357e840ada2da5c10426df922": {
+      "title": "R0603",
+      "source": "50b4943912284dab97752312e589e9e2|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1676254243",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "4c14aa78dd0643a89da8c6f5bcb72a3d": {
+      "title": "HDR-TH_3P-P2.54-V-M-1",
+      "source": "98e16509235d4f9fb7182149baf34a88|9d90172aebf944979384a9ecc7b84837",
+      "version": "1677719007",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "572105b134a5495eaec9ddefaf00df3e": {
+      "title": "HDR-TH_12P-P2.54-V-F-R2-C6-S2.54-1",
+      "source": "6512671e4ad2487abedbef84eabc7c1f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651663475",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "583d6a34af3d46388dfde95c1ad7f273": {
+      "title": "CONN-SMD_SH1.0A-4P-WT",
+      "source": "4a389f36c61548bf9c393eba736616fd|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1644977575",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-SMD\"]"
+    },
+    "58eaa52b07b247e28c67f2a5acca4e50": {
+      "title": "B-12*7.5",
+      "source": "48d7fe743cff4f98b3017f6a2d94eaa5|user",
+      "version": "1677756533012",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "6bdbac9cb4284f918e01ea3e41d22f13": {
+      "title": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "source": "fae38395b68f489a87a99c91828ad0fa|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652426383",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-3\"]"
+    },
+    "79065f0976fe4f3299438f1f519f5113": {
+      "title": "CONN-TH_12P-P2.54_826925-6",
+      "source": "3ccb301103a74d158ff98e74b70ab146|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1609140621",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CONN-TH\"]"
+    },
+    "c99ce27d379c441587a7293cb9ef7ad8": {
+      "title": "LED0603-RD_GREEN",
+      "source": "fad17916ca1c4395b59422ab04c78e7d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649816966",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED0603-RD\"]"
+    }
+  },
+  "devices": {
+    "282ca65350014e4c89306c86e899e2a3": {
+      "title": "ERA3VEB1001V",
+      "attributes": {
+        "LCSC Part Name": "1KΩ(1001) ±0.1%",
+        "Supplier Part": "C490794",
+        "Manufacturer": "PANASONIC(松下)",
+        "Manufacturer Part": "ERA3VEB1001V",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200407/C490794_144E786BD6B5906C11E86C00580B1EF5.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "ecc72be013e14314b010317a97e2cffc",
+        "Designator": "R?",
+        "Footprint": "1e8c0d1357e840ada2da5c10426df922",
+        "3D Model": "6bd5cd867e9542ebae21caaf5d2d4c4d",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Temperature Coefficient": "±25ppm/K",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Tolerance": "±0.1%",
+        "Overload Voltage (Max)": "100V",
+        "Type": "薄膜电阻",
+        "Power(Watts)": "125mW",
+        "Value": "1kΩ",
+        "Name": "={Value}",
+        "Description": "温度系数:±25ppm/K;温度系数:±25ppm/K;工作温度范围:-55℃~+155℃;工作温度范围:-55℃~+155℃;精度:±0.1%;最大工作电压:100V;类型:薄膜电阻;功率:125mW;阻值:1kΩ;"
+      },
+      "description": "温度系数:±25ppm/K;温度系数:±25ppm/K;工作温度范围:-55℃~+155℃;工作温度范围:-55℃~+155℃;精度:±0.1%;最大工作电压:100V;类型:薄膜电阻;功率:125mW;阻值:1kΩ;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20200520/74B299EC5D609938B470757CD32E27F8.jpg"
+      ],
+      "source": "37f0fc3745554d0ca7ca73c9425608c4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654894995",
+      "custom_tags": "[\"电阻\",\"贴片电阻\"]"
+    },
+    "448c3bdf8adc4d0986d50f7fcf303c06": {
+      "title": "S8050 J3Y_C2146",
+      "attributes": {
+        "LCSC Part Name": "NPN 25V 500mA (200-350)",
+        "Supplier Part": "C2146",
+        "Manufacturer": "CJ(江苏长电/长晶)",
+        "Manufacturer Part": "S8050 J3Y",
+        "Supplier Footprint": "SOT-23-3L",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20140809/1457707209234.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f35aca7e44dc4c7bbd8c4a62f4614f99",
+        "Designator": "Q?",
+        "Footprint": "6bdbac9cb4284f918e01ea3e41d22f13",
+        "3D Model": "89cb27a44ab2466697082bb9fd73a7d0",
+        "3D Model Title": "SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95",
+        "3D Model Transform": "110.59301,114.173,0,180,0,0,0,-0.0005,0",
+        "Transistor Type": "NPN",
+        "Collector-Emitter Breakdown Voltage (Vceo)": "25V",
+        "Collector Current (Ic)": "500mA",
+        "Power Dissipation (Pd)": "300mW",
+        "Collector Cut-Off Current (Icbo)": "100nA",
+        "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)": "600mV@500mA,50mA",
+        "DC Current Gain (hFE@Ic,Vce)": "200@50mA,1V",
+        "Transition Frequency (fT)": "150MHz",
+        "Operating Temperature": "+150℃@(Tj)",
+        "Name": "={Manufacturer Part}",
+        "Description": "晶体管类型:NPN;集射极击穿电压(Vceo):25V;集电极电流(Ic):500mA;功率(Pd):300mW;集电极截止电流(Icbo):100nA;集电极-发射极饱和电压(VCE(sat)@Ic,Ib):600mV@500mA,50mA;直流电流增益(hFE@Ic,Vce):200@50mA,1V;特征频率(fT):150MHz;工作温度:+150℃@(Tj);"
+      },
+      "description": "晶体管类型:NPN;集射极击穿电压(Vceo):25V;集电极电流(Ic):500mA;功率(Pd):300mW;集电极截止电流(Icbo):100nA;集电极-发射极饱和电压(VCE(sat)@Ic,Ib):600mV@500mA,50mA;直流电流增益(hFE@Ic,Vce):200@50mA,1V;特征频率(fT):150MHz;工作温度:+150℃@(Tj);",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230108/242D14CAE6811AC4DD7444D98BF340B5.jpg"
+      ],
+      "source": "3c065a4fa3474f809e6f1da8871401be|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1658090550",
+      "custom_tags": "[\"三极管/MOS管/晶体管\",\"三极管(BJT)\"]"
+    },
+    "59e790e1d5774144a30eb55cf620464f": {
+      "title": "826925-6",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 2x6P 直插",
+        "Supplier Part": "C306220",
+        "Manufacturer": "TE Connectivity(美国泰科)",
+        "Manufacturer Part": "826925-6",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181105/C306220_A1767197311F9EA18E5C41C77B28DC02.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d80927dc56db407caa89f05883f705ca",
+        "Designator": "U?",
+        "Footprint": "79065f0976fe4f3299438f1f519f5113",
+        "3D Model": "ad0936a9e55340a6aece9d98b42f9a8a",
+        "3D Model Title": "CONN-TH_12P-P2.54_826925-6",
+        "3D Model Transform": "599.9988,196.85,0,0,0,0,0,0,-125.984",
+        "Number of Rows": "双排",
+        "Number of Pins": "12",
+        "Pitch": "2.54mm",
+        "Pin Structure": "2x6P",
+        "Row Spacing": "2.54mm",
+        "Mounting Type": "直插",
+        "Circluar Pins/Square Pins": "-",
+        "Current Rating (Max)": "-",
+        "Voltage Rating (Max)": "-",
+        "Length of Mating Pin": "-",
+        "Insulation Height": "2.8mm",
+        "Contact Material": "-",
+        "Contact Plating": "-",
+        "Color": "绿色",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:双排;总PIN位数:12;间距:2.54mm;插针结构:2x6P;行距:2.54mm;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:2.8mm;触头材质:-;触头镀层:-;颜色:绿色;"
+      },
+      "description": "排数:双排;总PIN位数:12;间距:2.54mm;插针结构:2x6P;行距:2.54mm;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:2.8mm;触头材质:-;触头镀层:-;颜色:绿色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20181102/7BB3477112F57E8C958F9440E2608705.jpg"
+      ],
+      "source": "21a3864d4fea4fafb4eb613bee5502e9|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654805227",
+      "custom_tags": "[\"连接器\",\"排针\"]"
+    },
+    "6d3dca37623748c5b4bc9c32cf183e8e": {
+      "title": "单排排针1X3P-2.54",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 直插 方针",
+        "Supplier Part": "C180248",
+        "Manufacturer": "Amphenol",
+        "Manufacturer Part": "77311-102-03LF",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180329/C180248_62E264527695F7ED58561BB828D45E42.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "98b2a814eed9412b8ad611d4b1ae1935",
+        "Designator": "H?",
+        "Footprint": "4c14aa78dd0643a89da8c6f5bcb72a3d",
+        "3D Model": "94a8ffe137b6410295cb18cd3ffd99db",
+        "3D Model Title": "HDR-M-2.54_1x3",
+        "3D Model Transform": "299.9994,100,0,0,0,0,0,0,-118.11",
+        "Number of Rows": "单排",
+        "Number of Pins": "-",
+        "Pitch": "2.54mm",
+        "Pin Structure": "-",
+        "Row Spacing": "-",
+        "Mounting Type": "直插",
+        "Circluar Pins/Square Pins": "方针",
+        "Current Rating (Max)": "-",
+        "Voltage Rating (Max)": "-",
+        "Length of Mating Pin": "-",
+        "Insulation Height": "2.54mm",
+        "Contact Material": "磷青铜",
+        "Contact Plating": "-",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:单排;总PIN位数:-;间距:2.54mm;插针结构:-;行距:-;安装类型:直插;圆针/方针:方针;额定电流:-;额定电压:-;配合针长度:-;塑高:2.54mm;触头材质:磷青铜;触头镀层:-;颜色:黑色;"
+      },
+      "description": "排数:单排;总PIN位数:-;间距:2.54mm;插针结构:-;行距:-;安装类型:直插;圆针/方针:方针;额定电流:-;额定电压:-;配合针长度:-;塑高:2.54mm;触头材质:磷青铜;触头镀层:-;颜色:黑色;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20180907/545C99B54C0B9480C40D380314DD537B.jpg"
+      ],
+      "source": "b6f53ac52d204a6589db9f6dff503212|9d90172aebf944979384a9ecc7b84837",
+      "version": "1677719007",
+      "custom_tags": "[\"各种排针\"]"
+    },
+    "75c4ef6c690e497893b23674510e1a61": {
+      "title": "TMB12A05",
+      "attributes": {
+        "Designator": "BUZZER1",
+        "Pin Type": "IN",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "6ec445cb58b34c19978ec2036b289f4e",
+        "Name": "TMB12A05",
+        "Footprint": "58eaa52b07b247e28c67f2a5acca4e50",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "1f213de8cddb446d81a4e0428dae615e|user",
+      "version": "1640683648",
+      "custom_tags": "[]"
+    },
+    "a1b3e15f734842f8bcacc45d2dba3e40": {
+      "title": "FFH25407-D12S1001K6K",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 2x6P",
+        "Supplier Part": "C2833950",
+        "Manufacturer": "TXGA(特思嘉)",
+        "Manufacturer Part": "FFH25407-D12S1001K6K",
+        "Supplier Footprint": "直插,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210518/C2834326_3AB4CC10C0DCCDB97B118B6ABA523CBA.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "366a319b477b47388882479f0de28f23",
+        "Designator": "H?",
+        "Footprint": "572105b134a5495eaec9ddefaf00df3e",
+        "3D Model": "ebaf64c9a1cd4252b93eb4370d1faa79",
+        "3D Model Title": "HDR-TH_12P-P2.54-V-F-R2-C6-S2.54-1",
+        "3D Model Transform": "619.6838,267.716,0,0,0,0,0,-16.339,-137.795",
+        "Number of Rows": "双排",
+        "Number of Holes": "12",
+        "Pitch": "2.54mm",
+        "Holes Structure": "2x6P",
+        "Row Spacing": "2.54mm",
+        "Mounting Type": "直插",
+        "Circular Hole / Square Hole": "方孔",
+        "Current Rating (Max)": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Holes Direction": "顶部",
+        "Insulation Height": "8.5mm",
+        "Contact Material": "磷青铜",
+        "Contact Plating": "金",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Welding Temperature (Max)": "-",
+        "Name": "={Manufacturer Part}",
+        "Description": "排数:双排;总孔位数:12;间距:2.54mm;插孔结构:2x6P;行距:2.54mm;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:250V;插孔方向:顶部;塑高:8.5mm;触头材质:磷青铜;触头镀层:金;工作温度范围:-40℃~+105℃;焊接温度(最大值):-;"
+      },
+      "description": "排数:双排;总孔位数:12;间距:2.54mm;插孔结构:2x6P;行距:2.54mm;安装类型:直插;圆孔/方孔:方孔;额定电流:3A;额定电压:250V;插孔方向:顶部;塑高:8.5mm;触头材质:磷青铜;触头镀层:金;工作温度范围:-40℃~+105℃;焊接温度(最大值):-;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20210528/594B63A462057C58F26694C298894CD0.jpg"
+      ],
+      "source": "fac570b4f8cf4d899c3a1cee9ff6667e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654895129",
+      "custom_tags": "[\"连接器\",\"排母\"]"
+    },
+    "aa91d24999ac442d8fb295794070fbf2": {
+      "title": "Sheet-Symbol_A4",
+      "attributes": {
+        "Symbol": "a7a634f7fca7473cae01821dd25a0297",
+        "@Page Name": "",
+        "@Create Date": "",
+        "@Page Count": "",
+        "@Page No": "",
+        "@Project Name": "",
+        "@Schematic Name": "",
+        "@Update Date": "",
+        "Company": "嘉立创EDA",
+        "Device": "",
+        "Drawed": "",
+        "Page Size": "A4",
+        "Part Number": "",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "4b872d674c0b4b0e8ede0a73cf1a0316|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664282381",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "b12f0241aa404957b8be5c084b155216": {
+      "title": "SH1.0A-4P 卧贴",
+      "attributes": {
+        "LCSC Part Name": "SH1.0A-4P 卧贴",
+        "Supplier Part": "C9900000720",
+        "Manufacturer": "",
+        "Manufacturer Part": "SH1.0A-4P 卧贴",
+        "Supplier Footprint": "SMD-4P",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "4d4785e976d94eb985898d8b318b116f",
+        "Designator": "U?",
+        "Footprint": "583d6a34af3d46388dfde95c1ad7f273",
+        "3D Model": "2835a1895e344c138b79e1a18555599c",
+        "3D Model Title": "CONN-SMD_SH1.0A-4P-WT",
+        "3D Model Transform": "236.22,205.511,0,0,0,0,0,-4.921,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "3490455a2daa44a1b92c23b8b5b31b13|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1654893979",
+      "custom_tags": "[]"
+    },
+    "b3d29d50cddd464fa9a10eefdd8f22cd": {
+      "title": "Netport-IN",
+      "attributes": {
+        "Symbol": "200a5b4ccffe4adaa426fe559e9fd445"
+      },
+      "description": "Netport-IN",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d1791174cc834e86a381cf4678cd8f5f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1635846431",
+      "custom_tags": "[\"特殊器件\"]"
+    },
+    "f7482bd67cb241e2baf880fe3a6f6948": {
+      "title": "VLMTG1401-GS08",
+      "attributes": {
+        "LCSC Part Name": "VLMTG1401-GS08",
+        "Supplier Part": "C511604",
+        "Manufacturer": "VISHAY(威世)",
+        "Manufacturer Part": "VLMTG1401-GS08",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200413/C511604_272E80EA2E53340B96FA7453D68B4387.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a7c5cb5999f94c0f9e71d93674a3cc4f",
+        "Designator": "LED?",
+        "Footprint": "c99ce27d379c441587a7293cb9ef7ad8",
+        "3D Model": "7761174b67d9475ab0dbce38062fb2f9",
+        "3D Model Title": "LED0603-RD_GREEN",
+        "3D Model Transform": "63.7794,31.496,0,0,0,0,0,0,0",
+        "Mounting Type": "-",
+        "Illumination Color": "-",
+        "Lens Color": "-",
+        "Correlated Color Temperature - CCT(K)": "-",
+        "Luminous Intensity (IF=20mA)": "-",
+        "Luminous Flux/Radiant Flux": "-",
+        "Color Rendering Index(CRI)": "-",
+        "Dominant Wavelength / Coordinate rank": "-",
+        "Vf - Forward Voltage": "-",
+        "Size / Dimension": "-",
+        "Operating Temperature": "-",
+        "Height (Max)": "-",
+        "Name": "={Manufacturer Part}",
+        "Description": "照明颜色:-;色温 - CCT（K）:-;主波长/色坐标:-;正向电压（Vf）:-;"
+      },
+      "description": "照明颜色:-;色温 - CCT（K）:-;主波长/色坐标:-;正向电压（Vf）:-;",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20200731/4E2EFF3D34684ED208B86D5B34E0FC35.jpg"
+      ],
+      "source": "9d255dcfc5be4817b97352db55038920|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657743652",
+      "custom_tags": "[\"光耦/LED/数码管/光电器件\",\"发光二极管\"]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "889964ccf9854df39982cfc3efb39a33",
+      "pcb": "606b77c865cc46c0a5e19ba2e2841690"
+    }
+  },
+  "config": {
+    "title": "JETSON串口转接板",
+    "cbbProject": false,
+    "defaultSheet": "aa91d24999ac442d8fb295794070fbf2",
+    "editorVersion": "1.9.29.eba1c1"
+  }
+}

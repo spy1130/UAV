@@ -1,0 +1,1 @@
+{"version": "0.2.0", "configurations": [{"name": "C Launch (GDB)", "type": "cppdbg", "request": "launch", "launchOptionType": "Local", "targetArchitecture": "X86", "program": "${file}.exe", "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe", "args": ["blackkitty", "1221", "# #"], "stopAtEntry": 0, "cwd": "${workspaceRoot}", "externalConsole": 1, "preLaunchTask": "gcc"}]}

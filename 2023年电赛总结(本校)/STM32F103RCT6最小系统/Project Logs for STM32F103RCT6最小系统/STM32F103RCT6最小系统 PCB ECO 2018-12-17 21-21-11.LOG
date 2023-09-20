@@ -1,0 +1,4 @@
+Added Component: Designator=RESET(轻触开关)
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=RESET Pin=RESET-2
+Added Member To Class: ClassName=STM32F103RCT6最小系统 Member=Component RESET KRY_M

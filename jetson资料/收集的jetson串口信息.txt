@@ -1,0 +1,24 @@
+Jetson Nano有四个串口，分别是UART0、UART1、UART2和UART3。其中UART0是用于调试的，UART1和UART2是通过GPIO引脚（J41）暴露出来的，UART3是通过M.2接口（J14）暴露出来的。UART1对应的设备文件名是/dev/ttyTHS1，GPIO引脚号是16和18。UART0、UART2和UART3的设备文件名分别是/dev/ttyS0、/dev/ttyTHS2和/dev/ttyTHS3。
+
+模块的UART0（tegra视角的UART3）在M.2键上
+模块的UART1（TEGRA的UART2）在40引脚扩展上
+模块的UART2（从tegra的角度来看是UART1）在调试串行端口
+
+要用UART0调试Jetson Nano，需要以下几个步骤：
+1.停止UART0上的串口控制台服务
+（要停止串口控制台服务，在Jetson Nano上运行以下命令：
+sudo systemctl stop nvgetty.service
+sudo systemctl disable nvgetty.service
+sudo reboot）
+2.使用一个TTL到USB串口转换线来连接Jetson Nano和另一台电脑
+3.在另一台电脑上使用一个串口工具，例如minicom或putty，来打开和配置UART0的设备文件
+4.在Jetson Nano上运行您想要调试的程序，并且输出相关的信息到UART0
+
+用UART1调试，/dev/ttyTHS1，16和18。其他的步骤和UART0是一样的。（UART_1卡槽下方是不是有一排引脚啊）
+
+用UART2调试，/dev/ttyTHS2，8和10。其他的步骤和UART0是一样的。
+
+用UART3调试， /dev/ttyTHS，32和33。其他的步骤和UART0是一样的。
+
+jetson nano a02:ttyTHS1 是指 40pin 中的 UART 模块，ttyTHS2 是左上角 6 pin 中的 UART 模块，
+jetson nano b01:只有 40pin 引脚有 uart 模块，其中的第 8 和 第 10 引脚分别为 TX 和 RX 引脚

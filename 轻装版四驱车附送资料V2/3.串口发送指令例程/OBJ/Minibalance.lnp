@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"..\obj\startup_stm32f10x_md.o"
+"..\obj\minibalance.o"
+"..\obj\delay.o"
+"..\obj\sys.o"
+"..\obj\usart.o"
+"..\obj\led.o"
+"..\obj\key.o"
+"..\obj\oled.o"
+"..\obj\adc.o"
+"..\obj\motor.o"
+"..\obj\encoder.o"
+"..\obj\ioi2c.o"
+"..\obj\usart3.o"
+"..\obj\exti.o"
+"..\obj\can.o"
+"..\obj\inv_mpu.o"
+"..\obj\inv_mpu_dmp_motion_driver.o"
+"..\obj\filter.o"
+"..\obj\datascope_dp.o"
+--strict --scatter "..\OBJ\Minibalance.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\OBJ\Minibalance.map" -o ..\OBJ\Minibalance.axf
