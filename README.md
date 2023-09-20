@@ -1,4 +1,4 @@
-# gitee使用教程（必看）
+# gitee使用教程（已作废）
 
 [gitee教程（超全，超详细，超长）_我要用代码向我喜欢的女孩表白的博客-CSDN博客](https://blog.csdn.net/qq_38403590/article/details/120907444)
 
@@ -19,6 +19,14 @@ git add .
 （tips:暂存后需要提交commit，请使用UTF-8编写中文，否则会是乱码）
 
 3.上传的单个文件大小不得超过100MB.
+
+# github使用教程（必看）
+
+[还不会使用 GitHub ？ GitHub 教程来了！万字图文详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/369486197)
+
+https://github.com/maboloshi/github-chinese github的汉化油猴插件
+
+https://zhuanlan.zhihu.com/p/627568752 建议安装github-desktop图形化界面，能大幅减少学习成本
 
 # C基础部分（基础）
 
