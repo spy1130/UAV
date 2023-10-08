@@ -1,0 +1,99 @@
+T0C24 000:180.521   SEGGER J-Link V7.88n Log File
+T0C24 000:180.657   DLL Compiled: Jul 26 2023 15:32:53
+T0C24 000:180.668   Logging started @ 2023-08-03 00:42
+T0C24 000:180.674 - 180.677ms
+T0C24 000:180.687 JLINK_SetWarnOutHandler(...)
+T0C24 000:180.695 - 0.010ms
+T0C24 000:180.703 JLINK_OpenEx(...)
+T0C24 000:182.363   Firmware: J-Link J-Link V21 compiled Oct 24 2016 00:00:00
+T0C24 000:182.952   Firmware: J-Link J-Link V21 compiled Oct 24 2016 00:00:00
+T0C24 000:195.460   Hardware: V1.00
+T0C24 000:195.483   S/N: 776956462
+T0C24 000:195.494   OEM: SEGGER
+T0C24 000:195.516   Feature(s): None
+T0C24 000:196.661   Bootloader: (Could not read)
+T0C24 000:197.876   TELNET listener socket opened on port 19021
+T0C24 000:197.955   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0C24 000:198.258   WEBSRV Webserver running on local port 19080
+T0C24 000:198.372   Looking for J-Link GUI Server exe at: G:\Keil530\core\ARM\Segger\JLinkGUIServer.exe
+T0C24 000:198.532   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T0C24 000:198.580   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T0C24 000:202.927   J-Link GUI Server info: "J-Link GUI server V7.88n "
+T0C24 000:203.151 - 22.457ms returns "O.K."
+T0C24 000:203.188 JLINK_GetEmuCaps()
+T0C24 000:203.197 - 0.012ms returns 0x98EA5A33
+T0C24 000:203.211 JLINK_TIF_GetAvailable(...)
+T0C24 000:203.539 - 0.336ms
+T0C24 000:203.556 JLINK_SetErrorOutHandler(...)
+T0C24 000:203.562 - 0.009ms
+T0C24 000:203.599 JLINK_ExecCommand("ProjectFile = "G:\中国海洋大学\竞赛\电赛\t265调参版本7.25\ProjectTM4C123\JLinkSettings.ini"", ...). 
+T0C24 000:214.596   Ref file found at: G:\Keil530\core\ARM\Segger\JLinkDevices.ref
+T0C24 000:214.737   REF file references invalid XML file: C:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T0C24 000:214.950 - 11.357ms returns 0x00
+T0C24 000:214.974 JLINK_ExecCommand("Device = TM4C123GH6PM", ...). 
+T0C24 000:215.328   Device "TM4C123GH6PM" selected.
+T0C24 000:215.701 - 0.724ms returns 0x00
+T0C24 000:215.717 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0C24 000:215.727 - 0.004ms returns 0x01
+T0C24 000:215.735 JLINK_GetHardwareVersion()
+T0C24 000:215.742 - 0.009ms returns 10000
+T0C24 000:215.757 JLINK_GetDLLVersion()
+T0C24 000:215.764 - 0.009ms returns 78814
+T0C24 000:215.771 JLINK_GetOEMString(...)
+T0C24 000:215.779 JLINK_GetFirmwareString(...)
+T0C24 000:215.786 - 0.009ms
+T0C24 000:215.796 JLINK_GetDLLVersion()
+T0C24 000:215.802 - 0.009ms returns 78814
+T0C24 000:215.810 JLINK_GetCompileDateTime()
+T0C24 000:215.816 - 0.009ms
+T0C24 000:215.825 JLINK_GetFirmwareString(...)
+T0C24 000:215.832 - 0.009ms
+T0C24 000:215.840 JLINK_GetHardwareVersion()
+T0C24 000:215.846 - 0.009ms returns 10000
+T0C24 000:215.854 JLINK_GetSN()
+T0C24 000:215.861 - 0.009ms returns 776956462
+T0C24 000:215.869 JLINK_GetOEMString(...)
+T0C24 000:215.879 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0C24 000:217.462 - 1.590ms returns 0x00
+T0C24 000:217.476 JLINK_HasError()
+T0C24 000:217.498 JLINK_SetSpeed(5)
+T0C24 000:218.070 - 0.577ms
+T0C24 000:218.394 JLINK_HasError()
+T0C24 000:218.406 JLINK_SetResetType(JLINKARM_RESET_TYPE_BP0)
+T0C24 000:218.413 - 0.009ms returns JLINKARM_RESET_TYPE_NORMAL
+T0C24 000:218.421 JLINK_Reset()
+T0C24 000:246.388   Found SW-DP with ID 0x2BA01477
+T0C24 000:255.695   Failed to power up DAP
+T0C24 000:256.091   Connect fallback: Reset via Reset pin & Connect.
+T0C24 000:352.340   Found SW-DP with ID 0x2BA01477
+T0C24 000:361.695   Failed to power up DAP
+T0C24 000:361.719 - 143.302ms
+T0C24 000:361.736 JLINK_GetId()
+T0C24 000:389.495   Found SW-DP with ID 0x2BA01477
+T0C24 000:441.743   Old FW that does not support reading DPIDR via DAP jobs
+T0C24 000:493.245   DPv0 detected
+T0C24 000:493.270   CoreSight SoC-400 or earlier
+T0C24 000:493.283   Scanning AP map to find all available APs
+T0C24 000:519.041   AP[1]: Stopped AP scan as end of AP map seems to be reached
+T0C24 000:520.703   AP[0]: AHB-AP (IDR: 0x24770011)
+T0C24 000:520.722   Iterating through AP map to find AHB-AP to use
+T0C24 000:522.434   AP[0]: Skipped. Could not read AHB ROM register
+T0C24 000:522.452   Attach to CPU failed. Executing connect under reset.
+T0C24 000:545.045   Failed to power up DAP
+T0C24 000:646.464   Connect fallback: Reset via Reset pin & Connect.
+T0C24 000:741.985   Found SW-DP with ID 0x2BA01477
+T0C24 000:751.327   Failed to power up DAP
+T0C24 000:751.347 - 389.614ms returns 0x00000000
+T0C24 000:751.363 JLINK_GetId()
+T0C24 000:779.076   Found SW-DP with ID 0x2BA01477
+T0C24 000:792.750   Failed to power up DAP
+T0C24 000:792.774   Connect fallback: Reset via Reset pin & Connect.
+T0C24 000:889.223   Found SW-DP with ID 0x2BA01477
+T0C24 000:920.660   Failed to power up DAP
+T0C24 000:920.685 - 169.326ms returns 0x00000000
+T0C24 000:928.763 JLINK_GetFirmwareString(...)
+T0C24 000:928.783 - 0.023ms
+T0C24 001:568.505 JLINK_Close()
+T0C24 001:577.893 - 9.404ms
+T0C24 001:577.915   
+T0C24 001:577.923   Closed
