@@ -22,6 +22,8 @@ git add .
 
 # github使用教程（必看）
 
+【Git & GitHub 基础介绍 | 实用技能拾遗第二讲 | 浙江大学计算机学院朋辈辅学【直播回放】】https://www.bilibili.com/video/BV1og4y1u7XU/?share_source=copy_web&vd_source=e584ec5875772acc89d1f84460f8d6a2
+
 [还不会使用 GitHub ？ GitHub 教程来了！万字图文详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/369486197)
 
 https://github.com/maboloshi/github-chinese github的汉化油猴插件
