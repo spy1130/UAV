@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cat/catkin_ws/src/lsn10p/lslidar_driver/include/lslidar_driver/lsiosr.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+errno.h
+-
+unistd.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdint.h
+-
+fstream
+-
+iostream
+-
+
+/home/cat/catkin_ws/src/lsn10p/lslidar_driver/src/lsiosr.cpp
+lslidar_driver/lsiosr.h
+/home/cat/catkin_ws/src/lsn10p/lslidar_driver/src/lslidar_driver/lsiosr.h
+

@@ -1,0 +1,8 @@
+prefix=/home/cat/catkin_ws/install
+
+Name: lslidar_driver
+Description: Description of lslidar_driver
+Version: 1.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp diagnostic_updater nodelet pcl_ros pcl_conversions lslidar_msgs

@@ -1,0 +1,10 @@
+将凌霄的ut3用于接收摄像头传输过来的数据，波特率115200
+添加了
+MY_urst3_Receive
+MY_urst3_Send，50ms发送一次
+
+Drv_Uart.c中修改了
+#define U3GetOneByte	MY_urst3_Receive
+
+Drv_BSP.c中修改了
+DrvUart3Init(115200);

@@ -1,0 +1,8 @@
+prefix=/home/cat/catkin_ws/devel
+
+Name: tf_bi
+Description: Description of tf_bi
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

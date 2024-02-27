@@ -1,0 +1,8 @@
+prefix=/home/cat/catkin_ws/devel
+
+Name: lslidar_msgs
+Description: Description of lslidar_msgs
+Version: 1.2.0
+Cflags: -I/home/cat/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/cat/catkin_ws/devel
+
+Name: hector_mapping
+Description: Description of hector_mapping
+Version: 0.4.1
+Cflags: -I/home/cat/catkin_ws/devel/include -I/home/cat/catkin_ws/src/hector_slam-melodic-devel/hector_mapping/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp nav_msgs visualization_msgs tf message_filters laser_geometry tf_conversions message_runtime

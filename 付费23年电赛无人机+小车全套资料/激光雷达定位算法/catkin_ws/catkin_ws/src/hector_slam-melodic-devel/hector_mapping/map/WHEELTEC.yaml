@@ -1,0 +1,7 @@
+image: /home/wheeltec_client/wheeltec_hector/src/hector_slam-melodic-devel/hector_mapping/map/WHEELTEC.pgm
+resolution: 0.050000
+origin: [-26.224998, -26.224998, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

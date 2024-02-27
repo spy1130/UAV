@@ -1,0 +1,17 @@
+<launch>
+  
+  <include file="$(find lslidar_driver)/launch/lslidar_serial.launch">
+  
+  </include>
+  
+  <include file="$(find hector_mapping)/launch/mapping.launch">
+  
+  </include>
+
+    <node pkg="topic_example" type="publish_node2" name="publish_node2"  output="screen">
+ 
+  </node>
+
+  
+  
+</launch>

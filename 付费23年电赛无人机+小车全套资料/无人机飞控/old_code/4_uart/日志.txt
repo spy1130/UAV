@@ -1,0 +1,10 @@
+将凌霄的ut2用于接收摄像头传输过来的数据，波特率115200
+添加了
+MY_urst2_Receive
+MY_urst2_Send，50ms发送一次
+
+Drv_Uart.c中修改了
+#define U2GetOneByte	MY_urst2_Receive
+
+Drv_BSP.c中修改了
+DrvUart2Init(115200);

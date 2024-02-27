@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I .\build -I ..\FcSrc -I ..\DriversBsp -I ..\DriversMcu\STM32F407\Drivers -I ..\DriversMcu\STM32F407\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\DriversMcu\STM32F407\Libraries\CMSIS\Include -I ..\DriversMcu\STM32F407\Libraries\CMSIS\ST\STM32F4xx\Include -I ..\DriversMcu\STM32F407 --c99
+-I.\RTE\_Ano_LX
+-IC:\Keil_v5\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS
+-o .\build\drv_beep.o --omf_browse .\build\drv_beep.crf --depend .\build\drv_beep.d "..\FcSrc\drv_beep.c"
